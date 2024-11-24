@@ -63,8 +63,7 @@ main {
 }
 
 h1,
-h2,
-.nutrition p {
+h2 {
   margin-block-end: 24px;
 }
 
@@ -149,6 +148,10 @@ section li::marker {
   row-gap: 32px;
 }
 
+.nutrition p {
+  margin-block-end: 12px;
+}
+
 table {
   width: 100%;
   text-align: left;
@@ -159,8 +162,14 @@ tr:not(:last-child) {
   border-bottom: solid 1px var(--color-stone-150);
 }
 
-th, td {
-  padding-block: 12px;
+th,
+td {
+  padding-block-start: 12px;
+}
+
+tr:not(:last-child) th,
+tr:not(:last-child) td {
+  padding-block-end: 12px;
 }
 
 th {
