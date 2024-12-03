@@ -164,6 +164,7 @@ tr:not(:last-child) {
 
 th,
 td {
+  width: 50%;
   padding-block-start: 12px;
 }
 
@@ -174,7 +175,7 @@ tr:not(:last-child) td {
 
 th {
   font-weight: 400;
-  padding-inline-start: 32px;
+  padding-inline: 32px;
 }
 
 td {
